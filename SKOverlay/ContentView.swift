@@ -8,15 +8,27 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct ContentView: View {
+    @StateObject private var overlayManager = OverlayManager()
     var body: some View {
         NavigationView {
             VStack {
                 Image("launchScreen")
+                Button("Show Overlay") {
+                    overlayManager.randomConfiguration()
+                    overlayManager.showOverlay.toggle()
+                }
                 Spacer()
             }
             .navigationTitle("SKOverlay")
+            .appStoreOverlay(isPresented: $overlayManager.showOverlay) {
+                return overlayManager.configuration
+            }
+            .onAppear {
+                overlayManager.checkShowOverlay()
+            }
         }
         .navigationViewStyle(.stack)
     }

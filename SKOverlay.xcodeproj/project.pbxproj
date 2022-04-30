@@ -12,6 +12,7 @@
 		BB840C70281DC29000A9DC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB840C6F281DC29000A9DC46 /* Assets.xcassets */; };
 		BB840C73281DC29000A9DC46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB840C72281DC29000A9DC46 /* Preview Assets.xcassets */; };
 		BB840C7A281DC2EE00A9DC46 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB840C79281DC2EE00A9DC46 /* Launch Screen.storyboard */; };
+		BBE4BD29281DF63100C7B66F /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4BD28281DF63100C7B66F /* OverlayManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BB840C6F281DC29000A9DC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB840C72281DC29000A9DC46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB840C79281DC2EE00A9DC46 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BBE4BD28281DF63100C7B66F /* OverlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BB840C6B281DC28F00A9DC46 /* SKOverlayApp.swift */,
 				BB840C6D281DC28F00A9DC46 /* ContentView.swift */,
+				BBE4BD28281DF63100C7B66F /* OverlayManager.swift */,
 				BB840C6F281DC29000A9DC46 /* Assets.xcassets */,
 				BB840C79281DC2EE00A9DC46 /* Launch Screen.storyboard */,
 				BB840C71281DC29000A9DC46 /* Preview Content */,
@@ -143,6 +146,7 @@
 			files = (
 				BB840C6E281DC28F00A9DC46 /* ContentView.swift in Sources */,
 				BB840C6C281DC28F00A9DC46 /* SKOverlayApp.swift in Sources */,
+				BBE4BD29281DF63100C7B66F /* OverlayManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
